@@ -1,0 +1,7 @@
+.env.example
+.github
+.zed
+*.md
+docs
+LICENSE
+scripts

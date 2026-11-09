@@ -1,0 +1,77 @@
+---
+- - :permit
+  - MIT
+  - &1
+    :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 04:48:24.532612000 Z
+- - :permit
+  - Apache 2.0
+  - *1
+- - :permit
+  - ISC
+  - :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 06:17:35.742242000 Z
+- - :permit
+  - New BSD
+  - &2
+    :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 06:27:28.918434000 Z
+- - :permit
+  - Simplified BSD
+  - *2
+- - :permit
+  - BSD Zero Clause License
+  - :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 06:33:58.436978000 Z
+- - :permit
+  - BlueOak-1.0.0
+  - :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 06:43:07.596790000 Z
+- - :permit
+  - The Unlicense
+  - :who:
+    :why:
+    :versions: []
+    :when: 2024-09-18 06:46:06.140937000 Z
+- - :permit
+  - Zlib
+  - :who:
+    :why: To not conflict with Apache-2.0 license. https://zlib.net/zlib_license.html
+    :versions: []
+    :when: 2024-10-11 06:16:13.501764000 Z
+- - :permit
+  - LGPL-3.0-or-later
+  - :who:
+    :why: To not conflict with Apache-2.0 license. https://opensource.org/license/LGPL-3.0
+    :versions: []
+    :when: 2024-10-22 07:22:03.743391000 Z
+- - :permit
+  - CC0 1.0 Universal
+  - :who:
+    :why: To not conflict with Apache-2.0 license. https://creativecommons.org/publicdomain/zero/1.0/
+    :versions: []
+    :when: 2024-10-22 07:22:41.342554000 Z
+- - :permit
+  - CC-BY-4.0
+  - :who:
+    :why: To not conflict with Apache-2.0 license. https://creativecommons.org/licenses/by/4.0/
+    :versions: []
+    :when: 2024-10-22 07:23:14.573790000 Z
+- - :approve
+  - url-template
+  - :who:
+    :why: The BSD license is ambiguous. The license is now BSD 3-Clause from url-template
+      v3.1.0. See https://github.com/bramstein/url-template/pull/47
+    :versions:
+    - 2.0.8
+    :when: 2024-11-22 02:39:34.598816000 Z
